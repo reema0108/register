@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+
+    
+</head>
+<body>
+
+<div class="container">
+    <h2>Student Registration Form</h2>
+
+    <form>
+
+        <!-- Name -->
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Enter your name" required>
+        </div>
+
+        <!-- Register Number -->
+        <div class="form-group">
+            <label for="regno">Register Number</label>
+            <input type="text" id="regno" placeholder="Enter register number" required>
+        </div>
+
+        <!-- Email -->
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Enter your email" required>
+        </div>
+
+        <!-- Phone Number -->
+        <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" placeholder="Enter phone number" required>
+        </div>
+
+        <!-- Gender -->
+        <div class="form-group">
+            <label>Gender</label>
+            <div class="options">
+                <input type="radio" name="gender" id="male">
+                <label for="male">Male</label>
+
+                <input type="radio" name="gender" id="female">
+                <label for="female">Female</label>
+
+                <input type="radio" name="gender" id="other">
+                <label for="other">Other</label>
+            </div>
+        </div>
+
+        <!-- Hobbies -->
+        <div class="form-group">
+            <label>Hobbies</label>
+            <div class="options">
+                <input type="checkbox" id="reading">
+                <label for="reading">Reading</label>
+
+                <input type="checkbox" id="sports">
+                <label for="sports">Sports</label>
+
+                <input type="checkbox" id="music">
+                <label for="music">Music</label>
+
+                <input type="checkbox" id="travel">
+                <label for="travel">Traveling</label>
+            </div>
+        </div>
+
+        <!-- Department -->
+        <div class="form-group">
+            <label for="dept">Department</label>
+            <select id="dept">
+                <option>Select Department</option>
+                <option>Information Technology</option>
+                <option>Computer Science</option>
+                <option>Electronics and Communication</option>
+                <option>Mechanical Engineering</option>
+                <option>Civil Engineering</option>
+            </select>
+        </div>
+
+        <!-- Domain -->
+        <div class="form-group">
+            <label for="domain">Domain</label>
+            <select id="domain">
+                <option>Select Domain</option>
+                <option>Web Development</option>
+                <option>Java Full Stack</option>
+                <option>Python Development</option>
+                <option>Data Science</option>
+                <option>Artificial Intelligence</option>
+                <option>Cyber Security</option>
+            </select>
+        </div>
+
+        <!-- Area of Interest -->
+        <div class="form-group">
+            <label for="interest">Area of Interest</label>
+            <textarea id="interest" rows="4" placeholder="Write your interests here..."></textarea>
+        </div>
+
+        <!-- Address -->
+        <div class="form-group">
+            <label for="address">Address for Communication</label>
+            <textarea id="address" rows="4" placeholder="Enter your address"></textarea>
+        </div>
+
+        <!-- Submit -->
+        <button type="submit">Submit</button>
+
+    </form>
+</div>
+
+</body>
+</html>
+
